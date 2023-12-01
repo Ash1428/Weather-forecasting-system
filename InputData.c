@@ -15,8 +15,7 @@ void error_handler(char *message);
 int main(int argc, char *argv[]) {
 
   if (argc != 4) {
-    printf("ERROR: Enter TEMP (celsius), HUMIDITY (percentage), WIND "
-           "(meter/second)");
+    printf("ERROR: Enter TEMP (celsius), HUMIDITY (percentage), WIND (meter/second)");
     exit(1);
   } else {
     printf("Data sent to shared memory.\n");
