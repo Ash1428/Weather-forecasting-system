@@ -12,7 +12,7 @@ void send_file_data(FILE *fp, int sockfd, struct sockaddr_in addr);
 
 void error_handler(char *message);
 
-int main(void) {
+int main(int argc, char *argv[]) {
 
   int sval;
 
